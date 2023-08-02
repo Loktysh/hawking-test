@@ -1,0 +1,34 @@
+@import '../../constants/ui.scss';
+
+form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 90px;
+}
+
+h1 {
+  color: $blackColor;
+  leading-trim: both;
+  text-edge: cap;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 100%;
+  letter-spacing: -1.92px;
+  margin: 0;
+}
+
+h5 {
+  text-transform: capitalize;
+  color: $blackColor;
+  font-size: 32px;
+  font-weight: 500;
+  letter-spacing: -0.96px;
+  margin: 0 0  40px;
+}
+
+p {
+  color: $blackColor;
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: -0.72px;
+}
